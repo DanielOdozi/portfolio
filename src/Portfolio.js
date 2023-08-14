@@ -20,7 +20,7 @@ function Portfolio() {
             <header className='header'>
                 <Link to="/">
                     <img src={logo} alt="Logo" className='logo'/>
-                </Link>
+                </Link> 
                 <Link to="/Contact" target={'_blank'}>
                     <nav className='navs'>
                         <h1 className='contacthead'>Contact</h1>
@@ -94,11 +94,16 @@ function Portfolio() {
                 <div className='flex5'>
                     <div className='freecodecamp milan'></div>
                     <div className='freecodecamp skyfortwaves'><a href='https://skyfortwaveslimited.online' target='blank' className='hover-quote'><button>Click Here</button></a></div>
+                </div>
+            </section>
+            <section className='personal_project'>
+                <h1 className='personalname'>Personal Projects</h1>
+                <div className='flex6'>
                     <Link to="/Mainproducts" target={'_blank'}><div className='freecodecamp skyfortwaves'></div></Link>
                     <Flexbox />
                 </div>
-                <Outlet />
             </section>
+            <Outlet />
             <section className='sap'>
                 <div className='startaproject'></div>
             </section>
