@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+.mainbody {
+    background-color: #182f5d;
+    height: 100vh;
+}
+.contactbody {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Raleway', serif;
+}
+.header2 {
+    margin-top: 0;
+}
+.logo2 {
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: #182f5d;
+}
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    width: 450px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.name, 
+.number, 
+.email {
+    margin-bottom: 20px;
+    width: 350px;
+    height: 40px;
+    border-right-color: white;
+    border-left-color: white;
+    border-top-color: white;
+    border-bottom-color: #182f5d;
+    border-style: solid;
+    background-color: white;
+    color: #182f5d;
+    font-family: 'Raleway', serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.name:focus,
+.number:focus,
+.email:focus,
+.textarea:focus {
+    outline: none;
+}
+::placeholder {
+    color: #182f5d;
+    font-family: 'Raleway', serif;
+}
+.textarea {
+    width: 350px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-right-color: white;
+    border-left-color: white;
+    border-top-color: white;
+    border-bottom-color: #182f5d;
+    border-style: solid;
+    background-color: white;
+    color: #182f5d;
+    font-size: 15px;
+    font-weight: bold;
+    resize: none;
+}
+.submitbtn {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 150px;
+    background-color: #182f5d;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}

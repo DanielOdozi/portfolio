@@ -1,0 +1,17 @@
+.nomainpage {
+    background-image: url('../images/Virus.svg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', serif;
+    height: 100vh;
+}
+.nopage {
+    font-size: 40px;
+}
+.nop {
+    font-size: 20px;
+}

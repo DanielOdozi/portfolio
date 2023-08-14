@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+body {
+    margin: 0;
+}
+.intro {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1015%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M1488 560L0 560 L0 329.22Q28.85 286.07%2c 72 314.92Q156.33 279.25%2c 192 363.59Q222.23 273.81%2c 312 304.04Q340.76 260.8%2c 384 289.56Q481.06 266.62%2c 504 363.67Q512 299.68%2c 576 307.68Q647.87 259.55%2c 696 331.42Q706.41 269.83%2c 768 280.24Q813.25 253.5%2c 840 298.75Q904.07 290.82%2c 912 354.89Q937.73 308.62%2c 984 334.35Q1039.34 317.69%2c 1056 373.03Q1105.49 302.52%2c 1176 352.01Q1230.9 286.91%2c 1296 341.81Q1314.08 287.89%2c 1368 305.97Q1439.44 257.41%2c 1488 328.85z' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M1536 560L0 560 L0 445.9Q36.05 361.95%2c 120 398Q169.61 375.61%2c 192 425.21Q203.01 364.22%2c 264 375.23Q287.61 326.84%2c 336 350.45Q377.8 320.25%2c 408 362.05Q499.63 333.69%2c 528 425.32Q578.8 356.13%2c 648 406.93Q674.92 361.85%2c 720 388.77Q773.67 370.44%2c 792 424.11Q858.73 370.84%2c 912 437.57Q939.44 345%2c 1032 372.44Q1098.65 319.1%2c 1152 385.75Q1203.88 365.63%2c 1224 417.5Q1294.55 368.05%2c 1344 438.6Q1345 367.6%2c 1416 368.6Q1481.6 314.2%2c 1536 379.79z' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M1488 560L0 560 L0 445.62Q67.48 393.1%2c 120 460.58Q200.52 421.1%2c 240 501.62Q249.67 439.29%2c 312 448.96Q355.77 420.73%2c 384 464.49Q437.7 446.19%2c 456 499.89Q457.44 429.33%2c 528 430.78Q593.39 376.17%2c 648 441.56Q715.13 436.69%2c 720 503.81Q739.03 402.84%2c 840 421.86Q916.51 378.37%2c 960 454.88Q986.22 409.1%2c 1032 435.32Q1062.44 393.76%2c 1104 424.2Q1153.6 401.8%2c 1176 451.4Q1251.01 406.41%2c 1296 481.43Q1310.57 424%2c 1368 438.56Q1441.2 391.76%2c 1488 464.96z' fill='%23356cb1'%3e%3c/path%3e%3cpath d='M1512 560L0 560 L0 504.42Q74.52 458.94%2c 120 533.46Q172.51 465.97%2c 240 518.48Q291.89 450.37%2c 360 502.26Q427.31 497.57%2c 432 564.87Q498.83 511.7%2c 552 578.53Q564.11 518.64%2c 624 530.75Q663.67 450.42%2c 744 490.09Q789.36 463.45%2c 816 508.81Q868.25 489.06%2c 888 541.31Q971.02 504.33%2c 1008 587.34Q1011.6 518.94%2c 1080 522.54Q1131.24 453.78%2c 1200 505.02Q1287.75 472.77%2c 1320 560.52Q1363.82 484.34%2c 1440 528.16Q1459.35 475.51%2c 1512 494.86z' fill='rgba(24%2c 47%2c 93%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1015'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 95vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header {
+    margin-top: 30px;
+    margin-right: 90px;
+}
+.logo {
+    margin-top: -100px;
+    margin-bottom: -30px;
+    margin-left: 50px;
+}
+.navs {
+    border-style: solid;
+    display: flex;
+    float: right;
+    color: #182f5d;
+    border-radius: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.navs:hover {
+    background-color: #00629a;
+    color: white;
+    border-style: solid;
+    border-color: #00629a;
+}
+.contacthead {
+    font-family: 'Raleway', serif;
+    font-size: 15px;
+}
+.front {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.mastering {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.aboutdaniel {
+    background-image: linear-gradient(to bottom, #182f5d, #00629a, #0097a7, #00c779, #a8eb12);
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.dan {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Raleway', serif;
+}
+.dan2 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    width: 681px;
+    font-family: 'Raleway', serif;
+}
+.flex {
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: -90px;
+    box-shadow: rgb(58, 95, 95) 1px 1px 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: 'Raleway', serif;
+    flex-direction: column;
+    text-align: center;
+}
+.flex2 {
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: -90px;
+    box-shadow: rgb(58, 95, 95) 1px 1px 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: 'Raleway', serif;
+    flex-direction: column;
+    text-align: center;
+}
+.flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.languages, .devtools {
+    color: #00629a;
+    font-weight: bold;
+}
+.langaagetools {
+    margin-top: -10px;
+    width: 250px;
+    text-align: center;
+}
+.icon {
+    margin-top: -50px;
+    background-color: #A8EB12;
+    width: 10%;
+    height: 5%;
+    border-radius: 50%;
+    padding: 10px;
+}
+.tools {
+    margin-top: -5px;
+    line-height: 25px;
+}
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway', serif;
+    margin-top: 50px;
+    text-align: center;
+    flex-direction: column;
+}
+.projectheading {
+    font-size: 35px;
+}
+.projects > p {
+    font-size: 25px;
+}
+.flex3 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.flex4 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+}
+.flex5 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.freecodecamp {
+    width: 383px;
+    height: 255px;
+    background-color: #00629a;
+    border-radius: 20px;
+}
+.freecodecamptext {
+    text-decoration: underline;
+}
+.quote:hover, 
+.clockss:hover,
+.markdownss:hover,
+.drumss:hover,
+.calculatorss:hover,
+.milan:hover {
+    transform: scale(1.05);
+}
+.clockss, 
+.markdownss,
+.drumss,
+.calculatorss,
+.quote {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.quote:hover .hover-quote,
+.clockss:hover .hover-quote,
+.markdownss:hover .hover-quote,
+.drumss:hover .hover-quote,
+.calculatorss:hover .hover-quote {
+    opacity: 1;
+}
+.quote {
+    background-image: url('../images/quote.png');
+}
+.hover-quote {
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 127px;
+    display: flex;
+    align-items: center;
+    color: black;
+    justify-content: center; 
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.4px);
+    -webkit-backdrop-filter: blur(5.4px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 383px;
+    height: 255px;
+}
+.clockss {
+    background-image: url('../images/25+5_clock.png');
+}
+.markdownss {
+    background-image: url('../images/markdown.png');
+}
+.drumss {
+    background-image: url('../images/drum.png');
+}
+.calculatorss {
+    background-image: url('../images/calculator.png');
+}
+.wordpress {
+    text-decoration: underline;
+}
+.milan {
+    background-image: url('../images/Milan.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.avatar {
+    border-radius: 100px;
+    overflow: hidden;
+    background-color: #00629a;
+}
+/*scroll bar*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #00629a;
+}
+/*flexbox*/
+.sap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: -130px;
+}
+.startaproject {
+    background-color: #00629a;
+    width: 180vh;
+    height: 25vh;
+    border-radius: 10px;
+}
