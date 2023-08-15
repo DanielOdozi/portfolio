@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+.bodytodo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.maintodo {
+    width: 1000px;
+    height: 630px;
+    background-color: #00629a;
+    position: relative;
+    border-radius: 20px;
+    text-align: center;
+}
+.thingstodo {
+    color: white;
+    font-family: 'Raleway', serif;
+    letter-spacing: 2px;
+}
+.inputbox {
+    height: 40px;
+    width: 500px;
+    border: none;
+    border-radius: 10px;
+}
+.inputbox:focus {
+    outline: none;
+}
+.submittodo {
+    margin-top: 5px;
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
