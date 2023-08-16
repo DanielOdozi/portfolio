@@ -24,7 +24,7 @@
 }
 .inputbox {
     height: 40px;
-    width: 500px;
+    width: 900px;
     border: none;
     border-radius: 10px;
 }
@@ -37,4 +37,15 @@
     height: 30px;
     border: none;
     border-radius: 10px;
+}
+.submitinput {
+    margin-top: 40px;
+    color: white;
+    font-family: 'Raleway', serif;
+    font-size: 20px;
+    float: left;
+}
+.checkboxtodo {
+    width: 15px;
+    height: 15px;
 }
