@@ -9,7 +9,7 @@ function TodoApp(){
     const [inputs, setInputs] = useState("");
     const [submits, setSubmits] = useState([]);
 
-    useEffect(() => {
+    /*useEffect(() => {
         const storedSubmits = JSON.parse(localStorage.getItem('todoList'));
         if (storedSubmits) {
             setSubmits(storedSubmits);
@@ -18,7 +18,7 @@ function TodoApp(){
 
     useEffect(() => {
         localStorage.setItem('todoList', JSON.stringify(submits));
-    }, [submits]);
+    }, [submits]);*/
 
     const Handlechange = (event) => {
         setInputs(event.target.value)
